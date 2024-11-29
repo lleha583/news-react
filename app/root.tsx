@@ -25,7 +25,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <Header />
-        {children}
+        <section className="w-4/5 h-dvh bg-white m-auto p-5 pt-44 pb-8 border-x-2">
+          {children}
+        </section>
         <ScrollRestoration />
         <Scripts />
       </body>
