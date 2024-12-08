@@ -7,22 +7,22 @@ export default function Header() {
             <nav>
                 <ul className="flex gap-7">
                     <li className="text-2xl">
-                        <Link to={'/'}>
+                        <Link to='/'>
                             Home
                         </Link>
                     </li>
                     <li className="text-2xl">
-                        <Link to={'/tecnologies'}>
+                        <Link to='/tecnologies'>
                             Tecnologies
                         </Link>
                     </li>
                     <li className="text-2xl">
-                        <Link to={''}>
+                        <Link to=''>
                             Science
                         </Link>
                     </li>
                     <li className="text-2xl">
-                        <Link to={''}>
+                        <Link to=''>
                             Sport
                         </Link>
                     </li>
